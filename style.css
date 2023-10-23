@@ -1,43 +1,60 @@
-body{
-    font: font-family: 'Dancing Script', cursive;
-    font-family: 'Playpen Sans', cursive;;
+body {
+  font-family: "Dancing Script", cursive;
+  font-family: "Playpen Sans", cursive;
 }
-* {
-    background-color: cyan;
+body {
+  background-color: cyan;
+  box-sizing: border-box;
 }
-main > img{
-    float: right;
-    height: 400px;
-    width: 300px;
-    margin: 10px 0 10px 10px;
+main > img {
+  float: right;
+  height: 400px;
+  width: 300px;
+  margin: 10px 0 10px 10px;
 }
-footer{
-    clear: float;
+footer .media-link {
+  height: 45px;
+}
+.main {
+  display: grid;
+}
 
-}
-.main{
-    display: grid;
-}
 .tile-image {
-    height: 200px;
-    float: left;
-    margin-right: 50px;
-  }
-  .card {
-    width: 100%;
-    padding: 30px;
-  }
-  footer {
-    color: red; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
-    background-color:aquamarine;
-    text-align: center;
-    padding: 2px 0px 1px;
-    border-radius: 100px;
-    margin: 5px;
-    display: block;
+  height: 200px;
+  float: left;
+  margin-right: 50px;
 }
-a{
-    
+.card {
+  width: 100%;
+  padding: 30px;
+}
+footer {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(4, 45, 74);
+  text-align: center;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 12px -2px black;
+}
+main {
+  min-height: 100vh;
+  padding: 85px 24px 96px;
+  font-size: 25px;
+}
+nav {
+  position: fixed;
+  padding: 10px;
+  height: 80px;
+  background-color: rgb(4, 45, 74);
+  color: white;
+  align-items: center;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 12px -2px black;
 }
