@@ -1,0 +1,29 @@
+body{
+    font: font-family: 'Dancing Script', cursive;
+    font-family: 'Playpen Sans', cursive;;
+}
+* {
+    background-color: cyan;
+}
+main > img{
+    float: right;
+    height: 400px;
+    width: 300px;
+    margin: 10px 0 10px 10px;
+}
+footer{
+    clear: float;
+
+}
+.main{
+    display: grid;
+}
+.tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+  }
+  .card {
+    width: 100%;
+    padding: 30px;
+  }
