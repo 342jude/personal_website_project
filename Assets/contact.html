@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playpen+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!--Style link-->
+    <link rel="stylesheet" href="../style.css" />
+    <!--style-->
+    <style>
+      main {
+        height: 100vh;
+        font-size: 30px;
+        padding: 20px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 660px;
+        margin: auto;
+      }
+
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1c09f4;
+        color: #fff;
+        cursor: pointer;
+        box-shadow: 0 0 12px -2px black;
+        width: 80px;
+      }
+
+      #successMessage {
+        margin-top: 20px;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Jude T. Kiguli</h1>
+
+      <div id="links">
+        <a href="../index.html">Home</a>
+        <a href="./About.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <h1><b>Contact Me</b></h1>
+      <form id="form">
+        <div>
+          <label for="name">Name:</label>
+          <br />
+          <input id="name" type="text" name="Name" required />
+        </div>
+        <div>
+          <label for="Email">Email:</label>
+          <br />
+          <input id="email" type="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <br />
+          <textarea id="message" name="message" rows="6" cols="50"></textarea>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+      <hr />
+      <p>Tel: +13107223793</p>
+      <p>Email: kiguthadeus@gmail.com</p>
+    </main>
+
+    <footer>
+      <a class="media-text">
+        <p>Tel: <b>+13107223793</b>, Email: kiguthadeus@gmail.com</p>
+        <p>@ Copyright Jude Kiguli</p>
+      </a>
+
+      <a href="https://www.facebook.com/jude.thaddeus/" target="_blank">
+        <img class="media-link" src="../images/facebook.jpg" alt="Facebook" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/jude-kiguli-b7aa5986/"
+        target="_blank"
+      >
+        <img class="media-link" src="../images/linkedin.jpg" alt="Linkedin" />
+      </a>
+      <a href="https://twitter.com/jude_kiguli" target="_blank">
+        <img class="media-link" src="../images/x logo.jpg" alt="Twitter" />
+      </a>
+    </footer>
+    <script src="path-to-your-javascript-file.js"></script>
+  </body>
+</html>
